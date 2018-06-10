@@ -50,7 +50,7 @@ public class PredicateTest {
 		}
 		return list2;
 	}
-	//练习和使用function   泛型
+	//练习和使用function 泛型
       public static<T> int mapSum0(List<T> entries,Function<T,Integer> f) {
 		int sum=0;
 		for(T entry:entries) {
